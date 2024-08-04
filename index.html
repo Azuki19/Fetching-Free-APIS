@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lab1 - Fetching Free APIS </title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<section id="BITCOINSECTION">
+			<h1 id="h1">🪙 Current Bitcoin Price 🪙</h1>
+			<button type="reset" id="clear-bitcoin-button">Clear</button>
+			<button id="fetch-bitcoin-button">Search</button>
+			<section id="data-bitcoin-container"></section>
+		</section>
+
+		<section id="USERSECTION">
+			<h1 id="h1">👤 Generate Random User 👤</h1>
+			<button type="reset" id="clear-user-button">Clear</button>
+			<button id="fetch-user-button">Generate</button>
+			<section id="data-user-container"></section>
+		</section>
+
+		<section id="ANIMESECTION">
+			<h1>🫧 Anime Search! 🫧</h1>
+
+			<form id="anime-form">
+				<label for="animetype">Limit</label>
+				<input type="number" id="limit" placeholder="Enter anime limit number" required />
+				<label for="animetype">Anime Name</label>
+				<input type="search" id="search" placeholder="Search Anime Name" required />
+
+				<label for="animetype">Anime Type</label>
+				<select id="animetype" name="animetype">
+					<option value="tv">Tv</option>
+					<option value="movie">Movie</option>
+					<option value="ova">Ova</option>
+					<option value="special">Special</option>
+					<option value="ona">Ona</option>
+					<option value="cm">Cm</option>
+					<option value="pv">Pv</option>
+					<option value="tv_special">Tv Special</option>
+				</select>
+
+				<button type="reset" id="clear-button">Clear</button>
+				<button type="button" id="search-button">Search</button>
+			</form>
+
+			<section id="data-container"></section>
+		</section>
+
+		<script src="index.js"></script>
+	</body>
+</html>

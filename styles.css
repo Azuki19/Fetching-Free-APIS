@@ -1,0 +1,255 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(135deg, #71b3ff 0%, #753ab0 70%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#BITCOINSECTION {
+	margin-bottom: 50px;
+	background-color: rgb(198, 165, 255);
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+
+	#h1 {
+		font-size: 30px;
+		color: #6600ae;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+		margin-bottom: 30px;
+	}
+
+	#fetch-bitcoin-button,
+	#clear-bitcoin-button {
+		width: 200px;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 25px;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+	}
+
+	#fetch-bitcoin-button {
+		background-color: #864caf;
+	}
+
+	#fetch-bitcoin-button:hover {
+		background-color: #76218d;
+	}
+
+	#clear-bitcoin-button {
+		background-color: #a080c8b9;
+		color: black;
+	}
+
+	#clear-bitcoin-button:hover {
+		background-color: #a158bb;
+	}
+
+	.item {
+		background-color: rgba(255, 255, 255, 0.1);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: #8e2570;
+		border-radius: 10px;
+		width: 400px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		padding: 20px;
+		text-align: center; /* Centramos el texto dentro de los items */
+		margin-bottom: 20px;
+	}
+
+	.item h2 {
+		margin-bottom: 10px;
+	}
+
+	.item p {
+		color: black;
+		width: 90%;
+		margin-bottom: 10px;
+	}
+}
+
+#USERSECTION {
+	margin-bottom: 50px;
+	background-color: #afdeff;
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+
+	#h1 {
+		font-size: 30px;
+		color: #af4c93;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+		margin-bottom: 30px;
+	}
+
+	#fetch-user-button {
+		width: 200px;
+		background-color: #af4c93;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 25px;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		margin-bottom: 20px;
+	}
+	#fetch-user-button:hover {
+		background-color: #8d216e;
+	}
+	#clear-user-button {
+		margin-bottom: 15px;
+		width: 200px;
+		border: none;
+		color: rgb(0, 0, 0);
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 25px;
+		transition: all 0.3s ease;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		background-color: #8097c8b9;
+	}
+	#clear-user-button:hover {
+		background-color: #58a5bb;
+	}
+	.useritem {
+		background-color: rgba(255, 255, 255, 0.1);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		color: #8e2570;
+		border-radius: 10px;
+		width: 400px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+}
+
+#ANIMESECTION {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f3e5f5;
+	color: #6028a3;
+	margin: 0;
+	padding: 20px;
+	border-radius: 20px;
+
+	h1 {
+		text-align: center;
+		color: #6a1b9a;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	#anime-form {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-color: #e1bee7;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+	input,
+	select {
+		width: 500px;
+		margin-bottom: 15px;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+
+	button {
+		display: block;
+		width: 200px;
+		margin-bottom: 15px;
+		padding: 10px;
+		border: none;
+		border-radius: 50px;
+		font-size: 16px;
+	}
+	input:focus,
+	select:focus {
+		outline: none;
+		box-shadow: 0 0 0 2px #9c27b0;
+	}
+	button {
+		background-color: #9c27b0;
+		color: white;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+	button:hover {
+		background-color: #7b1fa2;
+	}
+	#clear-button {
+		background-color: #ce93d8;
+		color: #4a148c;
+	}
+	#clear-button:hover {
+		background-color: #ba68c8;
+	}
+	#data-container {
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 20px;
+	}
+	.item {
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 15px;
+		border-radius: 10px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+		text-align: center; /* Aquí centramos el texto dentro de los items */
+	}
+
+	.item p {
+		text-align: center;
+		color: black;
+		width: 90%;
+	}
+
+	.item:hover {
+		transform: translateY(-5px);
+	}
+	img {
+		max-width: 100%;
+		border-radius: 20px;
+		margin-bottom: 10px;
+	}
+}
